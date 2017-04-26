@@ -2,12 +2,14 @@
 <html>
 <head>
 	<title>Example Google - Invisible reCAPTCHA</title>
-	<script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
+	<script src="http://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
 	<script src="index.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 <body>
-	<form id='form' action="" method="POST">
+	<form id='form' action="test.php" method="POST">
    	 	<button class="g-recaptcha" data-sitekey="6Ldwih4UAAAAAHTce2vWq5NVJeSun7QpMMrNL0tx" data-callback="onSubmit" data-badge="inline" type="submit">Submit</button>
-    </form>
+  </form>
+
+	<span></span>
 </body>
 </html>

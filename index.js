@@ -1,3 +1,3 @@
 function onSubmit (token){
-	document.getElementById('form').submit();
+	document.getElementsByTagName('span')[0].innerHTML = `Result: \n ${token}`;
 }
